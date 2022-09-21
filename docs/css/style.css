@@ -3,4 +3,6 @@ body {
     background-color: #000000;
     display: grid;
     place-content: center;
+    font-family:'Creepster', cursive;
+    font-size: 2rem;
 }
