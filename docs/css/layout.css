@@ -1,0 +1,30 @@
+body{
+    background-color: red;
+    color: rgb(67, 117, 70);
+    font-family: sans-serif;
+}
+h1{
+    color: brown;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+
+    gap: 1rem;
+}
+.container {
+    max-width: min(80ch, 100vw - 2rem);
+    margin-inline: auto;
+}
+ing {
+    max-width: 100%;
+    height: auto;
+}
